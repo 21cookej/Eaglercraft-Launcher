@@ -15,13 +15,13 @@
     <meta content="https://21cookej.github.io/Launcher2/assets/images/sidebar/i-web.png" property="og:image">
     <meta content="#786d81" data-react-helmet="true" name="theme-color">
 </head>
-
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js');
+  }
+</script>
 <body>
-    <script>
-      if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js');
-      }
-    </script>
+
     <!-- <div id="notescreen"></div>
     <div id="naerror" class="error">
         <div>
