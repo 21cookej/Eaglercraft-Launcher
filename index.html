@@ -17,6 +17,11 @@
 </head>
 
 <body>
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js');
+      }
+    </script>
     <!-- <div id="notescreen"></div>
     <div id="naerror" class="error">
         <div>
