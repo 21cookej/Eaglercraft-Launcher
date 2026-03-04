@@ -7,7 +7,7 @@ if (location.hostname !== 'cool-launcher2.vercel.app' || location.pathname !== '
     position: fixed;
     top: 10px;
     left: 10px;
-    z-index: 99999;
+    z-index: 2147483647;
     background: #222;
     color: #fff;
     padding: 8px 14px;
