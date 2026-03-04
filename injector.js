@@ -1,5 +1,5 @@
-// Don't show home button on the main homepage
-if (location.hostname !== 'https://cool-launcher2.vercel.app' || location.pathname !== '/') {
+// Don't show launcher button on the main launcher page
+if (location.hostname !== 'cool-launcher2.vercel.app' || location.pathname !== '/') {
   const btn = document.createElement('a');
   btn.href = 'https://cool-launcher2.vercel.app';
   btn.innerText = '⬅ Launcher';
